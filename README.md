@@ -37,6 +37,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer, onde é possível cadastrar e excluir jobs (projetos), obtendo uma estimativa de custo de cada job. Além disso, é possível traçar o valor da hora da pessoa que estará usando o sistema 💰
 
+### • Como inicializar o projeto?
+  1. Instale o Node.js.
+  2. Clone este repositório com o Git.
+  3. Acesse a pasta do projeto e execute o comando `npm i` para instalar todas as dependências.
+  4. Após o término das instalações, execute o comando `npm run dev` para inicializar o projeto na porta 3000 (`localhost:3000`).
+
+
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/s4fytPFbDiSkv4GPSfKaLE/Jobs-Planning). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
