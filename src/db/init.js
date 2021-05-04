@@ -16,7 +16,7 @@ const initDb = {
             value_hour INT
         )`);
 
-        await db.exec(`CREATE TABLE job (
+        await db.exec(`CREATE TABLE jobs (
             id INTEGER PRIMARY KEY AUTOINCREMENT, 
             name TEXT,
             daily_hours INT,
@@ -30,17 +30,19 @@ const initDb = {
             monthly_budget, 
             days_per_week, 
             hours_per_day, 
-            vacation_per_year
+            vacation_per_year,
+            value_hour
         ) VALUES (
             "gustavo",
             "https://github.com/gustavinho-dev.png",
             3000,
             5,
             5,
-            4
+            4,
+            75
         )`);
 
-        await db.run(`INSERT INTO job (
+        await db.run(`INSERT INTO jobs (
             name, 
             daily_hours,
             total_hours,
@@ -52,7 +54,7 @@ const initDb = {
             1619983613078
         )`);
 
-        await db.run(`INSERT INTO job (
+        await db.run(`INSERT INTO jobs (
             name, 
             daily_hours,
             total_hours,
